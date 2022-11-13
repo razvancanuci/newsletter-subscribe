@@ -1,0 +1,16 @@
+<h3 class="text-center">Subscribe to our newsletter:</h3>
+<form [formGroup]="subscriberForm" (ngSubmit)="onSubscribe()">
+    <div class="mt-1/20">
+        <label for="name" class="block w-100">Name*: </label>
+        <input class="text-black" type="text" id="name" [formControl]="subscriberForm.controls.name" />
+    </div>
+    <div class="mt-1/20">
+        <label for="email" class="block w-100">Email*: </label>
+        <input class="text-black sm:w-100" type="text" id="email" [formControl]="subscriberForm.controls.email" />
+    </div>
+    <div class="mt-1/20">
+        <label for="phonenumber" class="block w-100">Phone: </label>
+        <input class="text-black" type="tel" id="phonenumber" [formControl]="subscriberForm.controls.phoneNumber" />
+    </div>
+    <button class="mt-1/10 ml-1/4" type="submit">Subscribe</button>
+</form>

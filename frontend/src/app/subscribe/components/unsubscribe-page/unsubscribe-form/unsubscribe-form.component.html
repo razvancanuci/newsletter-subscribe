@@ -1,0 +1,7 @@
+<form [formGroup]="unsubscribeForm" (ngSubmit)="onUnsubscribe()">
+    <div>
+        <label for="email">Email*: </label>
+        <input class="text-black" type="text" id="email" [formControl]="unsubscribeForm.controls.email" />
+    </div>
+    <button type="submit">Unsubscribe</button>
+</form>

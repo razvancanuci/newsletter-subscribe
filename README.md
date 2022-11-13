@@ -1,4 +1,5 @@
 # newsletter-subscribe
-backend: ASP.NET
+A simple newsletter subscription 
+backend: ASP.NET with EF Core PostgreSQL
 
-frontend: Angular
+frontend: Angular with TailWindCSS
