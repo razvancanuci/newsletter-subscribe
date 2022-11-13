@@ -1,0 +1,672 @@
+{
+  "backend.Application.dll": {
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.Application\\Services\\Impl\\SubscriberService.cs": {
+      "backend.Application.Services.Impl.SubscriberService": {
+        "System.Void backend.Application.Services.Impl.SubscriberService::.ctor(backend.DataAccess.Repository.IRepository`1<backend.DataAccess.Entities.Subscriber>,AutoMapper.IMapper)": {
+          "Lines": {
+            "12": 7,
+            "13": 7,
+            "14": 7,
+            "15": 7,
+            "16": 7
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<>c": {
+        "System.Boolean backend.Application.Services.Impl.SubscriberService/<>c::<GetSubscriberStats>b__9_0(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "56": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean backend.Application.Services.Impl.SubscriberService/<>c::<GetSubscriberStats>b__9_1(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "57": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean backend.Application.Services.Impl.SubscriberService/<>c::<GetSubscriberStats>b__9_2(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "58": 3
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 6,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<AddSubscriber>d__3": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<AddSubscriber>d__3::MoveNext()": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<DeleteSubscriberById>d__4": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<DeleteSubscriberById>d__4::MoveNext()": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<DeleteSusbcriberByEmail>d__5": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<DeleteSusbcriberByEmail>d__5::MoveNext()": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<GetSubscriberByEmail>d__6": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<GetSubscriberByEmail>d__6::MoveNext()": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<GetSubscriberById>d__7": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<GetSubscriberById>d__7::MoveNext()": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<GetSubscriberStats>d__9": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<GetSubscriberStats>d__9::MoveNext()": {
+          "Lines": {
+            "51": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "59": 1,
+            "60": 1,
+            "62": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend.Application.Services.Impl.SubscriberService/<GetSubscribers>d__8": {
+        "System.Void backend.Application.Services.Impl.SubscriberService/<GetSubscribers>d__8::MoveNext()": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "backend.DataAccess.dll": {
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Extensions.cs": {
+      "backend.DataAccess.Extensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection backend.DataAccess.Extensions::AddSubscrierContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection backend.DataAccess.Extensions::AddRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.IServiceProvider backend.DataAccess.Extensions::AddAutoMigration(System.IServiceProvider)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 34,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\SubscriberContext.cs": {
+      "backend.DataAccess.SubscriberContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<backend.DataAccess.Entities.Subscriber> backend.DataAccess.SubscriberContext::get_Subscribers()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void backend.DataAccess.SubscriberContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void backend.DataAccess.SubscriberContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Repository\\Impl\\Repository.cs": {
+      "backend.DataAccess.Repository.Impl.Repository`1": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1::.ctor(backend.DataAccess.SubscriberContext)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass3_0": {
+        "System.Boolean backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass3_0::<DeleteByAStringAsync>b__0(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass4_0": {
+        "System.Boolean backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass4_0::<DeleteByGuidAsync>b__0(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass6_0": {
+        "System.Boolean backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass6_0::<GetByGuidAsync>b__0(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "63": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass7_0": {
+        "System.Boolean backend.DataAccess.Repository.Impl.Repository`1/<>c__DisplayClass7_0::<GetByStringAsync>b__0(backend.DataAccess.Entities.Subscriber)": {
+          "Lines": {
+            "72": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<CreateAsync>d__2": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1/<CreateAsync>d__2::MoveNext()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 56,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 56,
+              "EndOffset": 330,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<DeleteByAStringAsync>d__3": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1/<DeleteByAStringAsync>d__3::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 84,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 84,
+              "EndOffset": 417,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<DeleteByGuidAsync>d__4": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1/<DeleteByGuidAsync>d__4::MoveNext()": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 84,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 84,
+              "EndOffset": 417,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<GetAllAsync>d__5": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1/<GetAllAsync>d__5::MoveNext()": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 42,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 42,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<GetByGuidAsync>d__6": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1/<GetByGuidAsync>d__6::MoveNext()": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 73,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 73,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "backend.DataAccess.Repository.Impl.Repository`1/<GetByStringAsync>d__7": {
+        "System.Void backend.DataAccess.Repository.Impl.Repository`1/<GetByStringAsync>d__7::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 73,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 73,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Migrations\\20221028155618_CreateSubscriberTable.cs": {
+      "backend.DataAccess.Migrations.CreateSubscriberTable": {
+        "System.Void backend.DataAccess.Migrations.CreateSubscriberTable::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void backend.DataAccess.Migrations.CreateSubscriberTable::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Migrations\\20221028155618_CreateSubscriberTable.Designer.cs": {
+      "backend.DataAccess.Migrations.CreateSubscriberTable": {
+        "System.Void backend.DataAccess.Migrations.CreateSubscriberTable::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Migrations\\SubscriberContextModelSnapshot.cs": {
+      "backend.DataAccess.Migrations.SubscriberContextModelSnapshot": {
+        "System.Void backend.DataAccess.Migrations.SubscriberContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Entities\\Entity.cs": {
+      "backend.DataAccess.Entities.Entity": {
+        "System.Guid backend.DataAccess.Entities.Entity::get_Id()": {
+          "Lines": {
+            "5": 33
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Entities\\Subscriber.cs": {
+      "backend.DataAccess.Entities.Subscriber": {
+        "System.String backend.DataAccess.Entities.Subscriber::get_Name()": {
+          "Lines": {
+            "5": 34
+          },
+          "Branches": []
+        },
+        "System.String backend.DataAccess.Entities.Subscriber::get_Email()": {
+          "Lines": {
+            "7": 33
+          },
+          "Branches": []
+        },
+        "System.String backend.DataAccess.Entities.Subscriber::get_PhoneNumber()": {
+          "Lines": {
+            "9": 21
+          },
+          "Branches": []
+        },
+        "System.DateTime backend.DataAccess.Entities.Subscriber::get_SubscriptionDate()": {
+          "Lines": {
+            "11": 30
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\PROJECTS\\SUBSCRIBE\\newsletter-subscribe\\backend\\src\\backend.DataAccess\\Configurations\\SubscriberConfiguration.cs": {
+      "backend.DataAccess.Configurations.SubscriberConfiguration": {
+        "System.Void backend.DataAccess.Configurations.SubscriberConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<backend.DataAccess.Entities.Subscriber>)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
